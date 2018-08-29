@@ -1,0 +1,123 @@
+/*Nav bar section*/
+nav {
+	background-color: lightgray;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-top: -8px;
+}
+nav li {
+	display: inline-block;
+	position: relative;
+	right: -75%;
+	width: 65px;
+}
+
+/*Large picture section*/
+span {
+	color: crimson;
+}
+.largeimage {
+	border-top: solid black;
+	margin-top: -20px;
+	background-color: lightgray;
+}
+.largeimage h2 {
+	text-align: center;
+}
+.largeimage h4 {
+	text-align: center;
+}
+#land {
+	width:100%;
+	max-height: 225px;
+	border-radius: 1%;
+}
+
+
+/*Double Text Section*/
+.box h4 {
+	color: crimson;
+	text-align: center;
+}
+.box {
+	display: table-cell;
+	padding-right: 10px;
+	background-color: lightgray;
+}
+.box:nth-child(2) {
+	background-color: lightgray;
+	padding-left: 10px;
+}
+
+
+/*Pictures With Captions Sections*/
+img {
+	width:125px;
+	border-radius: 7%;
+}
+.column {
+	width: 10%;
+	display: table-cell;
+	position: relative;
+	left: 115px;
+	background-color: lightgray;
+}
+.column:nth-child(2) {
+	background-color: lightgray;
+}
+.column:nth-child(3) {
+	background-color: lightgray;
+}
+.column:nth-child(4) {
+	background-color: lightgray;
+}
+.column:nth-child(5) {
+	background-color: lightgray;
+}
+.pictures h3 {
+	color: crimson;
+	text-align: center;
+}
+.image div {
+	margin-top: -5px;
+	background-color: white;
+	width: 125px;
+	text-indent: 5px;
+}
+.image h6 {
+	color: crimson;
+	margin-top: -0px;
+	margin-bottom: 10px; 
+}
+/*Footer Section*/
+footer {
+	background-color: black;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+footer h3 {
+	color: crimson;
+	padding-left: 10px;
+}
+#contact {
+	display: block;
+	width:350px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+#contact:nth-child(4) {
+	padding-bottom: 40px;
+}
+footer button {
+	color: white;
+	background-color: black;
+	border: none;
+	padding:10px;
+}
+footer input {
+	padding-left: 15px;
+}
+body {
+	background-color: lightgray;
+}
+
